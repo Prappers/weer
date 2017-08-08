@@ -915,5 +915,16 @@ define([
         }
         
     }
-    
+    /*
+* AdMob
+*/
+ 
+if(AdMob) AdMob.createBanner({
+    adId: 'ca-app-pub-4240952659017661/1191463602', // Paste the ad unit ID we've have copied earlier
+    overlap: false,
+    offsetTopBar: false,
+    adSize: 'SMART_BANNER',
+    position: AdMob.AD_POSITION.BOTTOM_CENTER,
+    bgColor: 'black', // color name, or '#RRGGBB'
+});
 });
